@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './Home.css';
+import style from './Home.module.css';
 import picture from '../assets/picture.png'
 
 
 class Home extends Component {
   render(){
     return (
-      <main  className='home'>
-        <h1 className='title'>
+      <main  className={style.home}>
+        <h1 className={style.title}>
           Desenvolvedor Web Full Stack
         </h1>
         <img src={picture} alt='Rapaz com camisa da Trybe' />

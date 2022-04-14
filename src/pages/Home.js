@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
-import picture from '/home/wendryo/portfolio/src/Image/picture.png'
+import picture from '../assets/picture.png'
 
 
 class Home extends Component {
@@ -10,7 +10,7 @@ class Home extends Component {
         <h1 className='title'>
           Desenvolvedor Web Full Stack
         </h1>
-        <img src={picture} alt='Wendryo com camisa da Trybe' />
+        <img src={picture} alt='Rapaz com camisa da Trybe' />
       </main>
     )
   }

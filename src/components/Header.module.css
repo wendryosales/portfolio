@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  margin: 0;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  max-height: 70px;
+  z-index: 2;
+  background: #7c7c7c;
+}
+
+.logo {
+  /* WS */
+  margin: 0;
+  width: 105px;
+  height: 75px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 75px;
+  text-align: center;
+
+  /* Border NEON */
+  background: linear-gradient(112.4deg, #FE53BB 29.63%, #09FBD3 76.7%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+}
+
+.menu a {
+  display: block;
+  padding: .5rem;
+}
+
+
+.mobile_toggle {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobile_toggle {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+}

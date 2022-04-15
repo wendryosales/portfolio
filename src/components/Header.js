@@ -23,14 +23,13 @@ function Header () {
           className={style.mobile_toggle} 
           onClick={toggleMenu}
         >
-          menu
           <span className={style.hamburguer} />
         </button>
         <ul className={style.menu}>
-          <li> <Link href='/' >Home</Link> </li>
-          <li> <Link href='/about' >Sobre</Link> </li>
-          <li> <Link href='/portfolio' >Portfólio</Link> </li>
-          <li> <Link href='/contact' >Contato</Link> </li>
+          <li> <Link to="/" >Home</Link> </li>
+          <li> <Link to='/about' >Sobre</Link> </li>
+          <li> <Link to='/portfolio' >Portfólio</Link> </li>
+          <li> <Link to='/contact' >Contato</Link> </li>
         </ul>
       </nav>
     </header>

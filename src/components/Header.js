@@ -10,12 +10,11 @@ function Header () {
 
   return (
     <header  className={style.container}>
-      <a 
-        href='https://www.linkedin.com/in/wendryosales/'
+      <p
         className={style.logo}
       > 
-      WS
-      </a>
+        WS
+      </p>
       <nav
         className={menuMobile ?  `${style.nav} ${style.active}` : style.nav}
       >

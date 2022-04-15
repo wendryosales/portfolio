@@ -10,4 +10,6 @@
 
 body { 
   background: #19191B;
+  height: 100vh;
+  width: 100vw;
 }

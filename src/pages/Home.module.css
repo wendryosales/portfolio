@@ -3,13 +3,12 @@ body {
 }
 
 .container {
-  min-height: 100vh; 
+  min-height: calc(100vh - 70px); 
   min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
   overflow: hidden;
 }
 
@@ -20,7 +19,7 @@ body {
 .image {
   position: relative;
   max-width: 400px;
-  width: 50%;
+  width: 70%;
 }
 
 .image::after {

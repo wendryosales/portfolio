@@ -9,7 +9,7 @@ function Home () {
       <Header />
       <div className={style.home}>
           <h1 className={style.title}>
-            Desenvolvedor Web
+            Desenvolvedor Web Full Stack
           </h1>
         <div className={style.image}>
           <img src={picture} alt='Rapaz com camisa da Trybe' />

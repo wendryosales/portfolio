@@ -2,15 +2,26 @@ import React from 'react';
 import style from './Home.module.css';
 import picture from '../assets/picture.png'
 import Header from '../components/Header'
+import Typing from 'react-typing-animation';
 
 function Home () {
   return (
     <main  className={style.container}>
       <Header />
       <div className={style.home}>
-          <h1 className={style.title}>
-            Desenvolvedor Web Full Stack
-          </h1>
+        <div className={style.typing}>
+          <Typing 
+          loop={true}
+          speed={150}
+          className={style.title}
+          >
+            <span>Desenvolvedor Web Full Stack</span>
+            <Typing.Speed ms={50} />
+            <Typing.Backspace count={28} delay={20} />
+            <Typing.Delay ms={1000} />
+            <Typing.Reset />
+          </Typing>
+        </div>
         <div className={style.image}>
           <img src={picture} alt='Rapaz com camisa da Trybe' />
         </div>

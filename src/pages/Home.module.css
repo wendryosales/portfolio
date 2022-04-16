@@ -26,9 +26,9 @@ body {
   content: '';
   display: block;
   position: absolute;
-  width: 300px;
-  height: 200px;
-  right: -10px;
+  width: 442px;
+  height: 226.55px;
+  right: -100px;
   bottom: 25%;
   background: #08F7FE;
   filter: blur(209.709px);
@@ -39,13 +39,14 @@ body {
   content: '';
   display: block;
   position: absolute;
-  width: 300px;
-  height: 200px;
-  left: -10px;
-  top: 30%;
+  width: 500.26px;
+  height: 188.04px;
+
+  left: -150px;
+  top: 25%;
 
   background: #FE53BB;
-  filter: blur(170px);
+  filter: blur(209.709px);
   z-index: -1;
 }
 
@@ -59,10 +60,18 @@ body {
   line-height: 56px;
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   z-index: 1;
   margin: 5px;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.title span {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.typing {
+  display: block;
 }
 
 .home {

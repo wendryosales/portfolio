@@ -1,19 +1,19 @@
 import React from 'react';
-import style from './Home.module.css';
-import picture from '../assets/picture.png'
-import Header from '../components/Header'
 import Typing from 'react-typing-animation';
+import style from './Home.module.css';
+import picture from '../assets/picture.png';
+import Header from '../components/Header';
 
-function Home () {
+function Home() {
   return (
-    <main  className={style.container}>
+    <main className={style.container}>
       <Header />
       <div className={style.home}>
         <div className={style.typing}>
-          <Typing 
-          loop={true}
-          speed={150}
-          className={style.title}
+          <Typing
+            loop
+            speed={150}
+            className={style.title}
           >
             <span>Desenvolvedor Web Full Stack</span>
             <Typing.Speed ms={50} />
@@ -23,11 +23,11 @@ function Home () {
           </Typing>
         </div>
         <div className={style.image}>
-          <img src={picture} alt='Rapaz com camisa da Trybe' />
+          <img src={picture} alt="Rapaz com camisa da Trybe" />
         </div>
       </div>
     </main>
-  )
+  );
 }
 
 export default Home;

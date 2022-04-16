@@ -12,19 +12,12 @@ function Home () {
         <div className={style.typing}>
           <Typing 
           loop={true}
-          speed={300}
+          speed={150}
           className={style.title}
           >
-            <span>{'<h1>'}</span>
-            <Typing.Backspace count={4} delay={40} />
-            <Typing.Speed ms={150} />
             <span>Desenvolvedor Web Full Stack</span>
-            {/* <Typing.Backspace count={22} delay={20} /> */}
-            {/* <span > </span> */}
             <Typing.Speed ms={50} />
             <Typing.Backspace count={28} delay={20} />
-            <Typing.Speed ms={300} />
-            <span>{'</h1>'}</span>
             <Typing.Delay ms={1000} />
             <Typing.Reset />
           </Typing>

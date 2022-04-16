@@ -1,0 +1,127 @@
+.container {
+  min-height: calc(100vh - 70px); 
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.image {
+  position: relative;
+  max-width: 500px;
+  width: 70%;
+}
+
+.wrapper {
+  display: flex;
+  height: calc(100vh - 70px);
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: .6rem;
+}
+
+.wrapper::before {
+  content: '';
+  position: absolute;
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 400px;
+  left: 0px;
+  top: 150px;
+  
+  background: conic-gradient(from 199.48deg at 46.31% 45.03%, #201580 -41.48deg, #E54EAB 184.69deg, #09FBD3 232.93deg, #201580 318.52deg, #E54EAB 544.69deg);
+  filter: blur(203.534px);
+
+  z-index: -1;
+}
+
+.about {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about p {
+  text-align: justify;
+}
+
+
+.skills {
+  padding: 8px;
+  flex-wrap: wrap;
+
+  min-width: 300px;
+  width: 70%;
+  background: rgba(255, 255, 255, 0.4);
+  background-blend-mode: overlay;
+  backdrop-filter: blur(19.9598px);
+
+  border-radius: 29.9396px;
+}
+
+.icons {
+  display: flex;
+  padding: .5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.icons img {
+  max-height: 60px;
+}
+
+
+@media (max-width: 720px) {
+  .wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .about {
+    width: 80%;
+    gap: 1rem;
+  }
+}

@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import illustration from '../assets/illustration3d.png';
 import icons from '../icons';
 
-function Home() {
+function About() {
   return (
     <main className={style.container}>
       <Header />
@@ -45,4 +45,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

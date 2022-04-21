@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f2a13743.css",
+    "main.js": "/static/js/main.a119fb28.js",
+    "static/media/picture.png": "/static/media/picture.3dfd377bf8323daa9b3a.png",
+    "static/media/illustration3d.png": "/static/media/illustration3d.bdc21c24882f78a2afc4.png",
+    "static/media/Saly-rocket.png": "/static/media/Saly-rocket.4b80a23b11278d205699.png",
+    "static/media/pixels-art.png": "/static/media/pixels-art.3a5f3d1d7f3cbee0bc38.png",
+    "static/media/solar-system.png": "/static/media/solar-system.86603e644dc3cbc9ae4d.png",
+    "static/media/shopping-cart.png": "/static/media/shopping-cart.a7a27fac5c07aa46322a.png",
+    "static/media/what-to-cook.png": "/static/media/what-to-cook.db849128a5bd3f364430.png",
+    "static/media/trybe-tunes.png": "/static/media/trybe-tunes.d91f3b30439ceae44a74.png",
+    "static/media/instagram-login.png": "/static/media/instagram-login.450008d352105d68654c.png",
+    "static/media/todo-list.png": "/static/media/todo-list.f47cf9f1ba74b62af58b.png",
+    "static/media/Saly-hand.png": "/static/media/Saly-hand.9a4c7ba3e67c6a571371.png",
+    "static/media/image6.svg": "/static/media/image6.2edf09ee90c55d103109b6f90c2e3525.svg",
+    "static/media/image4.svg": "/static/media/image4.88498621ce8b86eabc2ba53dbf2ccc27.svg",
+    "static/media/image7.svg": "/static/media/image7.b742194bbc862461c5506f3dfc424d73.svg",
+    "static/media/image1.svg": "/static/media/image1.962468a9aa3f63078daec96218728c67.svg",
+    "static/media/image2.svg": "/static/media/image2.9a9b4c3c9dda2f0aadce3f6c43b89fac.svg",
+    "static/media/image5.svg": "/static/media/image5.c48a74b7c12b18e3fbad589fc83ccec1.svg",
+    "static/media/image3.svg": "/static/media/image3.d3b3c55aebe83ae038bc04362980b1b9.svg",
+    "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "index.html": "/index.html",
+    "static/media/btn.svg": "/static/media/btn.299122c9a3e0a63b2da5.svg",
+    "main.f2a13743.css.map": "/static/css/main.f2a13743.css.map",
+    "main.a119fb28.js.map": "/static/js/main.a119fb28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2a13743.css",
+    "static/js/main.a119fb28.js"
+  ]
+}

@@ -35,7 +35,7 @@ function Contact() {
           </div>
           <div className={style.maps}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.5598307765945!2d-40.30114927259541!3d-20.359794855882562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8160795d2f97b%3A0x30bf661b9f1f3bd8!2sR.%20Enseada%20Carioca%20-%20Coqueiral%20de%20Itaparica%2C%20Vila%20Velha%20-%20ES%2C%2029102-312!5e0!3m2!1spt-BR!2sbr!4v1650570415479!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14961.890332659577!2d-40.31121828503991!3d-20.363395780728094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb815fbdc568f9d%3A0xf94c7e9139a97fd5!2sCoqueiral%20de%20Itaparica%2C%20Vila%20Velha%20-%20ES!5e0!3m2!1spt-BR!2sbr!4v1650582308531!5m2!1spt-BR!2sbr"
               title="maps"
               width="400"
               height="300"

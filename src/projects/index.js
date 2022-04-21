@@ -1,6 +1,9 @@
 import trybeTunes from '../assets/projects/trybe-tunes.png';
 import whatToCook from '../assets/projects/what-to-cook.png';
 import solarSystem from '../assets/projects/solar-system.png';
+import loginInstagram from '../assets/projects/instagram-login.png';
+import shoppingCart from '../assets/projects/shopping-cart.png';
+import pixelsArt from '../assets/projects/pixels-art.png';
 
 const projects = [
   {
@@ -26,6 +29,30 @@ const projects = [
     repository: 'https://github.com/wendryosales/Solar-system',
     description: 'Projeto sobre planetas do sistema solar que contem cards com as missões espaciais',
     alt: 'Third slide',
+  },
+  {
+    title: 'Login Instagram',
+    image: loginInstagram,
+    deploy: 'https://github.com/wendryosales/instagram-login',
+    repository: 'https://github.com/wendryosales/instagram-login',
+    description: 'Clone da página de login do instagram responsivo',
+    alt: 'Fourth slide',
+  },
+  {
+    title: 'Shopping Cart',
+    image: shoppingCart,
+    deploy: 'https://shopping-cartw.netlify.app',
+    repository: 'https://github.com/wendryosales/shopping-cart',
+    description: 'Carrinho de compras com manipulação do DOM em JavaScript Vanilla',
+    alt: 'Fifth slide',
+  },
+  {
+    title: 'Pixels Art',
+    image: pixelsArt,
+    deploy: 'https://pixels-artt.netlify.app',
+    repository: 'https://github.com/wendryosales/pixels-art',
+    description: 'Quadro de pinturas pixeladas, onde é possível escolher a cor com base em uma paleta randomizada e outra fixa.',
+    alt: 'Sixth slide',
   },
 ];
 

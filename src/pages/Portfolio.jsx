@@ -1,9 +1,6 @@
 import React from 'react';
 import { RiGitRepositoryLine, RiLinksLine } from 'react-icons/ri';
-import {
-  BsFillArrowLeftCircleFill,
-  BsFillArrowRightCircleFill,
-} from 'react-icons/bs';
+import { Carousel } from 'react-bootstrap';
 import Header from '../components/Header';
 import style from './Portfolio.module.css';
 import projects from '../projects';
@@ -16,44 +13,43 @@ function Portfolio() {
         <section className={style.title}>
           <h1> Projetos </h1>
         </section>
-        <section
-          className={style.projects}
-        >
-          <BsFillArrowLeftCircleFill />
+        <Carousel className="p-3">
           {
             projects.map(({
-              title, image, deploy, repository,
+              title, deploy, repository, image, description,
             }) => (
-              <div key={title} className={style.card}>
-                <img src={image} alt={title} />
-                <h1>
-                  { title }
-                </h1>
-                <div className={style.links}>
-                  <a
-                    href={deploy}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <RiLinksLine />
-                  </a>
-                  <a
-                    href={repository}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <RiGitRepositoryLine />
-                  </a>
+              <Carousel.Item className="d-flex justify-content-center">
+                <div key={title} className={style.card}>
+                  <img src={image} alt={title} />
+                  <h1>
+                    { title }
+                  </h1>
+                  <div className={style.links}>
+                    <p>
+                      {description}
+                    </p>
+                    <div className={style.icons}>
+                      <a
+                        href={deploy}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <RiLinksLine />
+                      </a>
+                      <a
+                        href={repository}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <RiGitRepositoryLine />
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                {/* <FcBrokenLink />
-                <RiGitRepositoryCommitsLine /> */}
-              </div>
+              </Carousel.Item>
             ))
           }
-          <BsFillArrowRightCircleFill
-            className={style.arrowRight}
-          />
-        </section>
+        </Carousel>
       </div>
     </main>
   );

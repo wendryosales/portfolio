@@ -4,6 +4,7 @@ import solarSystem from '../assets/projects/solar-system.png';
 import loginInstagram from '../assets/projects/instagram-login.png';
 import shoppingCart from '../assets/projects/shopping-cart.png';
 import pixelsArt from '../assets/projects/pixels-art.png';
+import toDoList from '../assets/projects/todo-list.png';
 
 const projects = [
   {
@@ -53,6 +54,14 @@ const projects = [
     repository: 'https://github.com/wendryosales/pixels-art',
     description: 'Quadro de pinturas pixeladas, onde é possível escolher a cor com base em uma paleta randomizada e outra fixa.',
     alt: 'Sixth slide',
+  },
+  {
+    title: 'To do List',
+    image: toDoList,
+    deploy: 'https://github.com/wendryosales/todo-list',
+    repository: 'https://github.com/wendryosales/todo-list',
+    description: 'Lista de tarefas a fazer com opção de marcar as prontas e salvar o progresso no LocalStorage',
+    alt: 'Seventh slide',
   },
 ];
 

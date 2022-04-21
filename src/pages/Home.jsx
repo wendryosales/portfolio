@@ -1,5 +1,6 @@
 import React from 'react';
 import Typing from 'react-typing-animation';
+import Tilt from 'react-tilt';
 import style from './Home.module.css';
 import picture from '../assets/picture.png';
 import Header from '../components/Header';
@@ -23,7 +24,9 @@ function Home() {
           </Typing>
         </div>
         <div className={style.image}>
-          <img src={picture} alt="Rapaz com camisa da Trybe" />
+          <Tilt className={style.tilt} options={{ max: 25 }}>
+            <img src={picture} alt="Rapaz com camisa da Trybe" />
+          </Tilt>
         </div>
       </div>
     </main>

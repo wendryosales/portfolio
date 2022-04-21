@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { RiGitRepositoryLine, RiLinksLine } from 'react-icons/ri';
 import { Carousel } from 'react-bootstrap';
 import Header from '../components/Header';
 import style from './Portfolio.module.css';
 import projects from '../projects';
+import './active.css';
 
 function Portfolio() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
   return (
     <main className={style.container}>
       <Header />
@@ -13,14 +20,19 @@ function Portfolio() {
         <section className={style.title}>
           <h1> Projetos </h1>
         </section>
-        <Carousel className="p-3">
+        <Carousel className="p-3" tabIndex={index} activeIndex={index} onSelect={handleSelect}>
           {
             projects.map(({
-              title, deploy, repository, image, description,
+              title, deploy, repository, image, description, alt,
             }) => (
-              <Carousel.Item className="d-flex justify-content-center">
-                <div key={title} className={style.card}>
-                  <img src={image} alt={title} />
+              <Carousel.Item
+                className="d-flex justify-content-center"
+              >
+                <div
+                  key={title}
+                  className={style.card}
+                >
+                  <img src={image} alt={alt} />
                   <h1>
                     { title }
                   </h1>

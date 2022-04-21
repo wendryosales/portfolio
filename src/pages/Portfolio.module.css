@@ -132,7 +132,7 @@
 }
 
 .card:hover img {
-  visibility: hidden;
+  filter: blur(10px);
 }
 
 .card h1 {

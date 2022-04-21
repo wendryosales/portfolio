@@ -83,6 +83,7 @@
   backdrop-filter: blur(6px);
 
   border-radius: 29.9396px;
+  transition: .3s;
 }
 
 .card a:hover {
@@ -91,6 +92,7 @@
 
 .card img {
   width: 50%;
+  transition: .3s;
   border-radius: 29.9396px;
 }
 

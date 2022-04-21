@@ -21,7 +21,7 @@
 .title {
   display: flex;
   width: 90%;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-start;
   height: 20%;
   position: relative;
@@ -33,8 +33,8 @@
   position: absolute;
   width: 205px;
   height: 110px;
-  left: 7%;
-  top: -47%;
+  left: 45px;
+  top: -60px;
   background-image: url('../assets/Saly-hand.png');
   background-size: 100%;
   z-index: 0;
@@ -146,9 +146,18 @@
   line-height: 21px;
 }
 
+@media (max-width: 1024px) {
+  .title::after {
+    left: 45px;
+    top: -30px;
+  }
+}
+
+
 @media (max-width: 720px) {
   .title::after {
-    left: 17%;
+    left: 45px;
+    top: -30px;
   }
 
   .card img {

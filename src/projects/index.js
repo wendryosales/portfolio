@@ -1,6 +1,7 @@
 import trybeTunes from '../assets/projects/trybe-tunes.png';
 import whatToCook from '../assets/projects/what-to-cook.png';
 import solarSystem from '../assets/projects/solar-system.png';
+import loginInstagram from '../assets/projects/instagram-login.png';
 
 const projects = [
   {
@@ -26,6 +27,14 @@ const projects = [
     repository: 'https://github.com/wendryosales/Solar-system',
     description: 'Projeto sobre planetas do sistema solar que contem cards com as missões espaciais',
     alt: 'Third slide',
+  },
+  {
+    title: 'Login Instagram',
+    image: loginInstagram,
+    deploy: 'https://github.com/wendryosales/instagram-login',
+    repository: 'https://github.com/wendryosales/instagram-login',
+    description: 'Clone da página de login do instagram responsivo',
+    alt: 'Fourth slide',
   },
 ];
 

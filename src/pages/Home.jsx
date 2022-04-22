@@ -30,6 +30,7 @@ function Home() {
           </Tilt>
         </div>
       </div>
+      <div className={style.bg} />
     </main>
   );
 }

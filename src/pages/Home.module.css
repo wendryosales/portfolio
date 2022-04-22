@@ -10,6 +10,7 @@ body {
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+  position: relative;
 }
 
 .image img {
@@ -17,36 +18,20 @@ body {
 }
 
 .image {
-  position: relative;
   max-width: 400px;
   width: 70%;
 }
 
-.image::after {
-  content: '';
+.bg {
   display: block;
   position: absolute;
-  width: 442px;
-  height: 226.55px;
-  right: -100px;
-  bottom: 25%;
-  background: #08F7FE;
-  filter: blur(209.709px);
-  z-index: -1;
-}
-
-.image::before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 500.26px;
-  height: 188.04px;
-
-  left: -150px;
-  top: 25%;
-
-  background: #FE53BB;
-  filter: blur(209.709px);
+  width: 820px;
+  height: 446px;
+  left: 546px;
+  top: 247px;
+  
+  background: conic-gradient(from 199.48deg at 46.31% 45.03%, #201580 -41.48deg, #E54EAB 184.69deg, #09FBD3 232.93deg, #201580 318.52deg, #E54EAB 544.69deg);
+  filter: blur(203.534px);
   z-index: -1;
 }
 
@@ -116,5 +101,10 @@ body {
 
   .titleMobile {
     display: block;
+  }
+
+  .bg {
+    left: 0;
+    top: 350px;
   }
 }

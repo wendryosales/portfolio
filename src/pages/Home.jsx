@@ -19,9 +19,10 @@ function Home() {
             <span>Desenvolvedor Web Full Stack</span>
             <Typing.Speed ms={50} />
             <Typing.Backspace count={28} delay={20} />
-            <Typing.Delay ms={1000} />
-            <Typing.Reset />
           </Typing>
+        </div>
+        <div className={style.titleMobile}>
+          <span>Desenvolvedor Web Full Stack</span>
         </div>
         <div className={style.image}>
           <Tilt className={style.tilt} options={{ max: 25 }}>

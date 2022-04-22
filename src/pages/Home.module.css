@@ -82,6 +82,20 @@ body {
   align-items: center;
 }
 
+.titleMobile {
+  display: none;
+  width: 400px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px; 
+  line-height: 56px;
+  text-align: center;
+  z-index: 1;
+  margin: 5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 @media (max-width: 720px) {
   .home {
     flex-direction: column;
@@ -94,5 +108,13 @@ body {
 
   .title {
     width: 300px;
+  }
+
+  .typing {
+    display: none;
+  }
+
+  .titleMobile {
+    display: block;
   }
 }

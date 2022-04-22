@@ -8,6 +8,10 @@
   font-family: Raleway, Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+  overflow: hidden;
+}
+
 body { 
   background: #19191B !important;
   height: 100vh;

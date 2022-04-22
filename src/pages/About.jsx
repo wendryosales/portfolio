@@ -20,12 +20,12 @@ function About() {
         <section className={style.about}>
           <h1>Sobre mim</h1>
           <p>
-            Olá, me chamo Wendryo, tenho 21 anos e moro em Vila Velha - ES.
+            Olá, me chamo Wendryo, tenho 22 anos e moro em Vila Velha - ES.
             Sou apaixonado por tecnologia e estou sempre procurando aprender
-            coisas novas e me atualizar neste gigantesco mundo.
-            Atualmente trabalho na Brasilcenter Telecomunicações, sou
-            freelancer na Telus International ( Social media evaluator)
-            e estudo na Trybe.
+            coisas novas. Estudo desenvolvimento web na @Trybe e trabalho na
+            BrasilCenter Telecomunicações. Sou pai de 2 pets (uma
+            pitbull e uma gatinha frajola), e não poderia deixar de fora que amo
+            jogar vôlei de praia aos finais de semana.
           </p>
           <section className={style.skills}>
             <h2> Hard Skills</h2>

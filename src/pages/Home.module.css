@@ -95,15 +95,22 @@ body {
     width: 300px;
   }
 
-  .typing {
+  /* .typing {
     display: none;
-  }
+  } */
 
-  .titleMobile {
+  /* .titleMobile {
     display: block;
+  } */
+
+  .container {
+    background-image: url('../assets/bg.svg');
+    background-position: 35% 0%;
+    background-repeat: no-repeat;
   }
 
   .bg {
+    display: none;
     left: 0;
     top: 350px;
   }

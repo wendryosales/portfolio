@@ -5,6 +5,7 @@ import loginInstagram from '../assets/projects/instagram-login.png';
 import shoppingCart from '../assets/projects/shopping-cart.png';
 import pixelsArt from '../assets/projects/pixels-art.png';
 import toDoList from '../assets/projects/todo-list.png';
+import parkingCar from '../assets/projects/parking-car.png';
 
 const projects = [
   {
@@ -22,6 +23,14 @@ const projects = [
     repository: 'https://github.com/wendryosales/what-to-cook',
     description: 'Projeto bônus realizado em grupo, aplicativo que te ajuda escolher uma receita',
     alt: 'Second slide',
+  },
+  {
+    title: 'Parking Car',
+    image: parkingCar,
+    deploy: 'https://parkingcar.netlify.app/',
+    repository: 'https://github.com/wendryosales/parking-car',
+    description: 'Sistema de estacionamento com cálculos de permanência e salvo localmente feito em TypeScript',
+    alt: 'Parking Car',
   },
   {
     title: 'Solar System',

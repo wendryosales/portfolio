@@ -22,10 +22,9 @@ function About() {
           <p>
             Olá, me chamo Wendryo, tenho 22 anos e moro em Vila Velha - ES.
             Sou apaixonado por tecnologia e estou sempre procurando aprender
-            coisas novas. Estudo desenvolvimento web na @Trybe e trabalho na
-            BrasilCenter Telecomunicações. Sou pai de 2 pets (uma
-            pitbull e uma gatinha frajola), e não poderia deixar de fora que amo
-            jogar vôlei de praia aos finais de semana.
+            coisas novas. Sou desenvolvedor junior na morphus.com.br e estudo na @trybe.
+            Sou pai de 2 pets (uma pitbull e uma gatinha frajola), e não poderia
+            deixar de fora que amo jogar vôlei de praia aos finais de semana.
           </p>
           <section className={style.skills}>
             <h2> Hard Skills</h2>

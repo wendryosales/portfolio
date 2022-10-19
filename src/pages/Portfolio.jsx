@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { RiGitRepositoryLine, RiLinksLine } from 'react-icons/ri';
 import { Carousel } from 'react-bootstrap';
+import { RiGitRepositoryLine, RiLinksLine } from 'react-icons/ri';
 import Header from '../components/Header';
-import style from './Portfolio.module.css';
 import projects from '../projects';
+import style from './Portfolio.module.css';
 
 function Portfolio() {
   const [index, setIndex] = useState(0);
@@ -24,7 +24,7 @@ function Portfolio() {
             projects.map(({
               title, deploy, repository, image, description, alt,
             }) => (
-              <Carousel.Item>
+              <Carousel.Item key={title}>
                 <div
                   key={title}
                   className={style.card}

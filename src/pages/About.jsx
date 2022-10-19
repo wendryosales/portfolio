@@ -22,9 +22,11 @@ function About() {
           <p>
             Olá, me chamo Wendryo, tenho 22 anos e moro em Vila Velha - ES.
             Sou apaixonado por tecnologia e estou sempre procurando aprender
-            coisas novas. Sou desenvolvedor junior na morphus.com.br e estudo na @trybe.
-            Sou pai de 2 pets (uma pitbull e uma gatinha frajola), e não poderia
-            deixar de fora que amo jogar vôlei de praia aos finais de semana.
+            coisas novas. Sou desenvolvedor Full Stack em uma empresa voltada
+            para o ramo de cybersecurity chamada Morphus e estudo na @trybe.
+            Embora tenha preferência por desenvolvimento em nodeJS e React, trabalho
+            com Django Rest Framework e React. Me adapto facilmente a novas tecnologias
+            devido a aptidão de aprender rápido e a facilidade de entender conceitos.
           </p>
           <section className={style.skills}>
             <h2> Hard Skills</h2>
